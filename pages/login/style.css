@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 1.5rem 3rem 3rem 3rem;
+  background-color: #d9d9d9;
+  width: 70%;
+  box-shadow: 7px 7px 0 #a6a6a6;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #808080;
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke: 1px black;
+}
+
+h2 {
+  margin-block: 2rem;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.form-label,
+.input-label {
+  text-transform: uppercase;
+}
+
+.form-label {
+  color: #28abc0;
+}
+
+.input-wrapper {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+}
+
+.input-label,
+.form-btn {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.btn-wrapper {
+  grid-column: 2;
+}
+
+.form-btn {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-size: inherit;
+  background-color: #737373;
+  border: none;
+}
