@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Pelajar | e-UniDaftar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="#">
+          <button>KELUAR</button>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <h2>Tambah Pelajar</h2>
+      <form action="#">
+        <div class="form-wrapper">
+          <label for="noMatrik">No Matrik:</label>
+          <div>
+            <input type="text" name="noMatrik" id="noMatrik" />
+          </div>
+
+          <label for="nama">Name:</label>
+          <input type="text" id="nama" />
+
+          <label for="noKP">No Kad Pengenalan:</label>
+          <input type="text" name="noKP" id="noKP" />
+
+          <label for="alamat">Alamat:</label>
+          <textarea name="alamat" id="alamat"></textarea>
+
+          <label for="agama">Agama:</label>
+          <input type="text" name="agama" id="agama" />
+
+          <label for="negeri">Negeri:</label>
+          <div>
+            <select name="negeri" id="negeri">
+              <option value="">Pilih Negeri</option>
+              <option value="Trg">Terengganu</option>
+              <option value="Phg">Pahang</option>
+              <option value="Kdh">Kedah</option>
+              <option value="Sel">Selangor</option>
+              <option value="Kel">Kelantan</option>
+              <option value="Prk">Perak</option>
+              <option value="Ppg">Pulau Pinang</option>
+              <option value="Mel">Melaka</option>
+              <option value="Jhr">Johor</option>
+              <option value="Sbh">Sabah</option>
+              <option value="Srw">Sarawak</option>
+              <option value="Lab">Labuan</option>
+              <option value="Wp">Wilayah Persekutuan</option>
+              <option value="Pjy">Putrajaya</option>
+            </select>
+          </div>
+
+          <p>Jantina:</p>
+          <div>
+            <input type="radio" name="jantina" id="L" value="L" />
+            <label for="L" style="margin-right: 1rem">Lelaki</label>
+
+            <input type="radio" name="jantina" id="P" value="P" />
+            <label for="P">Perempuan</label>
+          </div>
+
+          <label for="noTel">No Telefon:</label>
+          <div>
+            <input type="tel" name="noTel" id="noTel" />
+          </div>
+
+          <label for="progPengajian">Program Pengajian:</label>
+          <input type="text" name="progPengajian" id="progPengajian" />
+
+          <label for="tahun">Tahun Pengajian:</label>
+          <div>
+            <input type="number" name="tahun" id="tahun" />
+          </div>
+        </div>
+
+        <div class="form-btn">
+          <input type="reset" value="KEMBALI" />
+          <input type="submit" value="SIMPAN MAKLUMAT" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
