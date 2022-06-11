@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maklumat Transaksi | e-UniDaftar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <button>
+          <a href="../menu/menu.html">KELUAR</a>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <h2>Maklumat Transaksi</h2>
+      <form action="#">
+        <label class="yuran-label" for="yuran">Yuran</label>
+        <table id="yuran">
+          <tr>
+            <td><label for="namaBank">Nama Bank:</label></td>
+            <td><input id="namaBank" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="kodBank">Kod Bank:</label></td>
+            <td><input id="kodBank" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="bayaran">Jumlah Bayaran:</label></td>
+            <td><input id="bayaran" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="bukti">Bukti Pembayaran:</label></td>
+            <td><input id="bukti" type="file" accept="application/pdf" /></td>
+          </tr>
+        </table>
+        <div class="btn-wrapper">
+          <button>
+            <a href="../menu/menu.html"> KEMBALI </a>
+          </button>
+          <input type="submit" value="HANTAR" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

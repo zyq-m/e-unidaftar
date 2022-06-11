@@ -5,11 +5,8 @@
 
 a {
   all: unset;
+  cursor: pointer;
 }
-
-/* .button {
-
-} */
 
 body {
   font-size: 16px;
